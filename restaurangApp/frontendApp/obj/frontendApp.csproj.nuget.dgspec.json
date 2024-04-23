@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\frontendApp.csproj": {}
+    "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\frontendApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\frontendApp.csproj": {
+    "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\frontendApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\frontendApp.csproj",
+        "projectUniqueName": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\frontendApp.csproj",
         "projectName": "frontendApp",
-        "projectPath": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\frontendApp.csproj",
+        "projectPath": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\frontendApp.csproj",
         "packagesPath": "C:\\Users\\albin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\obj\\",
+        "outputPath": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

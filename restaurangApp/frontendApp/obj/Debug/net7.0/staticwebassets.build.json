@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fm8RHoc4CxvNTS3C+RtieEZTHutwj++lGAIdNvzhRO0=",
+  "Hash": "ilRHFOZsRfLMZXr2OLI5bgdOfLwgTh77URSAAICushI=",
   "Source": "frontendApp",
   "BasePath": "_content/frontendApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "frontendApp\\wwwroot",
       "Source": "frontendApp",
-      "ContentRoot": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\",
       "BasePath": "_content/frontendApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\frontendApp.styles.css",
+      "Identity": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\frontendApp.styles.css",
       "SourceId": "frontendApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/frontendApp",
       "RelativePath": "frontendApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\frontendApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\frontendApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\frontendApp.bundle.scp.css",
+      "Identity": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\frontendApp.bundle.scp.css",
       "SourceId": "frontendApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/frontendApp",
       "RelativePath": "frontendApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\frontendApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\frontendApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\css\\site.css",
       "SourceId": "frontendApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\",
       "BasePath": "_content/frontendApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\favicon.ico",
       "SourceId": "frontendApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\",
       "BasePath": "_content/frontendApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\js\\site.js",
       "SourceId": "frontendApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\wwwroot\\",
       "BasePath": "_content/frontendApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",

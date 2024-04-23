@@ -4002,11 +4002,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\backendApp\\backendApp.csproj",
+      "projectUniqueName": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\backendApp\\backendApp.csproj",
       "projectName": "backendApp",
-      "projectPath": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\backendApp\\backendApp.csproj",
+      "projectPath": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\backendApp\\backendApp.csproj",
       "packagesPath": "C:\\Users\\albin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\backendApp\\obj\\",
+      "outputPath": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\backendApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

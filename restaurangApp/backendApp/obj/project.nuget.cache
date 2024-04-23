@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "27cWlJw5JxPgppg2wXnBLPip+QyKG05hTCWbLPbURvL1SjvioRR3GEoAED/79XIxJgiwwS2AB9F1iXcI/mTSQA==",
+  "dgSpecHash": "i3L1kM29E2eXpFNIZaLkORog7yN46E7xPLt/5sET33iiP8pQ6x67KrENOPtoeCaVE1DXoed8q/GZccaY2cKfBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\backendApp\\backendApp.csproj",
+  "projectFilePath": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\backendApp\\backendApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\albin\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\albin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

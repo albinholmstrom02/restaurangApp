@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LBbXeN0fTAmebMIJC9IkWaRGGXdJbvX0GWLKjL9D4Kzvxln9EOXXI/DZEt+ms6wXuMmHIQ7a8BlgxP+CmYpBpQ==",
+  "dgSpecHash": "aNLY7mVM0PX4QXKRQCX9abiTsJU/OXrG/Tx7EMNdxZ4iaJRatuenoUIz1KzjeYE3lcP0F6jcgG+vp2bb+E+YKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\albin\\Desktop\\restaurang app\\restaurangApp\\frontendApp\\frontendApp.csproj",
+  "projectFilePath": "C:\\Users\\albin\\Desktop\\Examensarbete\\restaurang app\\restaurangApp\\frontendApp\\frontendApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\albin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\albin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
