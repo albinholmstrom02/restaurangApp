@@ -9,7 +9,7 @@ namespace frontendApp.Services
 
         public void AddToCart(DishViewModel dish, int quantity)
         {
-            var existingCartItem = _cartItems.FirstOrDefault(item => item.DishId == dish.Id);
+            var existingCartItem = _cartItems.FirstOrDefault(item => item.Id == dish.Id);
 
             if (existingCartItem != null)
             {
@@ -19,12 +19,21 @@ namespace frontendApp.Services
             {
                 _cartItems.Add(new CartItemViewModel
                 {
-                    DishId = dish.Id,
+                    Id = dish.Id,
                     DishName = dish.Name,
                     ImageUrl = dish.ImageUrl,
                     Price = dish.Price,
                     Quantity = quantity
                 });
+            }
+        }
+
+        public void RemoveFromCart(int id)
+        {
+            var itemToRemove = _cartItems.FirstOrDefault(item => item.Id == id);
+            if (itemToRemove != null)
+            {
+                _cartItems.Remove(itemToRemove);
             }
         }
 

@@ -6,10 +6,11 @@ namespace backendApp.Models.Entities
     {
         [Key]
         public int Id { get; set; }
-        public int OrderNumber { get; set; }
-        public int TotalPrice { get; set; }
-        public string Dishes { get; set; }
+        public string OrderNumber { get; set; }
         public string Name { get; set; }
         public string Phone { get; set; }
+        public int TotalPrice { get; set; }
+        public string Dishes { get; set; }
+
     }
 }

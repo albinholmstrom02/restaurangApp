@@ -61,8 +61,9 @@ namespace frontendApp.Controllers
                 string data = response.Content.ReadAsStringAsync().Result;
                 model = JsonConvert.DeserializeObject<DishViewModel>(data);
                 _cartService.AddToCart(model, quantity);
+                TempData["CartNotification"] = "The dish has been added to the cart.";
             }
-
+            
             return RedirectToAction("Index");
         }
     }

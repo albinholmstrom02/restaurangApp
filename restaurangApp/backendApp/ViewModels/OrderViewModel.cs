@@ -6,9 +6,7 @@ namespace backendApp.ViewModels
     public class OrderViewModel
     {
         [Required]
-        public int Id { get; set; }
-        [Required]
-        public int OrderNumber { get; set; }
+        public string OrderNumber { get; set; }
         [Required]
         public int TotalPrice { get; set; }
         [Required]

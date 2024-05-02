@@ -1,0 +1,18 @@
+﻿@using frontendApp.ViewModels;
+@{
+    ViewData["Title"] = "Order Completed";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+            <h1 class="mt-5">Order Completed</h1>
+            <p class="lead">Your order with order number <strong>@ViewBag.OrderNumber</strong> has been completed successfully.</p>
+            <p class="lead">Thank you, <strong>@ViewBag.Name!</strong></p>
+            <strong>Remember to show your order number at checkout!</strong>
+            <div class="mt-4">
+                <a asp-controller="Home" asp-action="Index" class="btn btn-primary btn-lg">Return to Home</a>
+            </div>
+        </div>
+    </div>
+</div>

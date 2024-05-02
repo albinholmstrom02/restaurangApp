@@ -42,14 +42,14 @@
 
     <div>
         <h3>Shipping Information</h3>
-        <form asp-controller="Orders" asp-action="CompleteOrder" method="post">
+        <form asp-controller="Order" asp-action="CompleteOrder" method="post">
             <div class="form-group">
-                <label for="address">Address:</label>
-                <input type="text" class="form-control" id="address" name="Address" required>
+                <label for="Name">Name:</label>
+                <input type="text" class="form-control" id="Name" name="Name" required>
             </div>
             <div class="form-group">
-                <label for="postalCode">Postal Code:</label>
-                <input type="text" class="form-control" id="postalCode" name="PostalCode" required>
+                <label for="Phone">Phone:</label>
+                <input type="text" class="form-control" id="Phone" name="Phone" required>
             </div>
             <button type="submit" class="btn btn-primary">Complete Order</button>
         </form>

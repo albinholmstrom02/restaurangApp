@@ -4,120 +4,67 @@
     ViewData["Title"] = "Home page";
 }
 
-<div>
-    <header class="bg-dark text-white">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-3">
-                    <h2 class="mb-0">Fast and Tasty</h2>
-                </div>
-                <div class="col-md-2">
-                    <a href="@Url.Action("Index", "Cart")" class="btn btn-info">
-                        <i class="fas fa-shopping-cart"></i> Cart
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #5D4037;">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <h1 class="m-0" style="font-size: 2.5rem; color: #FFFFFF;">
+                <i class="fas fa-utensils"></i>
+                Fast and Tasty
+                <i class="fas fa-utensils"></i>
+            </h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Index", "Cart")">
+                        <i class="fas fa-shopping-cart cart-icon" style="font-size: 1.5rem; color: #FFFFFF;"></i>
                     </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+@if (TempData["CartNotification"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert" style="position: fixed; top: 10px; right: 10px; z-index: 1000;">
+        @TempData["CartNotification"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+<div class="container mt-5">
+    <div class="row">
+        @foreach (var dish in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow" style="background-color: #EFEBE9;">
+                    <img src="@dish.ImageUrl" alt="@dish.Name" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">@dish.Name</h5>
+                        <div class="price h4 text-primary font-weight-bold">
+                            $@dish.Price
+                        </div>
+                        <div class="mt-3">
+                            <a href="Home/Details/@dish.Id" class="btn btn-secondary btn-block" style="background-color: #795548;">Details</a>
+                            <form method="post" asp-controller="Home" asp-action="AddToCart">
+                                <input type="hidden" name="id" value="@dish.Id" />
+                                <div class="input-group mt-2">
+                                    <input type="number" name="quantity" class="form-control" value="1" />
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-primary">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <div class="container mt-5">
-        <div class="row">
-            @foreach (var dish in Model)
-            {
-                if (dish.DishType.ToString() == "Pizza")
-                {
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="@dish.ImageUrl" alt="@dish.Name" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">@dish.Name</h5>
-                                <p class="card-text">@dish.Description</p>
-                                <div class="price h4 text-primary font-weight-bold">
-                                    $@dish.Price
-                                </div>
-                                <div class="mt-3">
-                                    <a href="Home/Details/@dish.Id" class="btn btn-secondary btn-block">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                }
-            }
-        </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row">
-            @foreach (var dish in Model)
-            {
-                if (dish.DishType.ToString() == "Pasta")
-                {
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="@dish.ImageUrl" alt="@dish.Name" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">@dish.Name</h5>
-                                <p class="card-text">@dish.Description</p>
-                                <div class="price h4 text-primary font-weight-bold">
-                                    $@dish.Price
-                                </div>
-                                <div class="mt-3">
-                                    <a href="Home/Details/@dish.Id" class="btn btn-secondary btn-block">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                }
-            }
-        </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row">
-            @foreach (var dish in Model)
-            {
-                if (dish.DishType.ToString() == "Burger")
-                {
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="@dish.ImageUrl" alt="@dish.Name" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">@dish.Name</h5>
-                                <p class="card-text">@dish.Description</p>
-                                <div class="price h4 text-primary font-weight-bold">
-                                    $@dish.Price
-                                </div>
-                                <div class="mt-3">
-                                    <a href="Home/Details/@dish.Id" class="btn btn-secondary btn-block">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                }
-            }
-        </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row">
-            @foreach (var dish in Model)
-            {
-                if (dish.DishType.ToString() == "Meat")
-                {
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="@dish.ImageUrl" alt="@dish.Name" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">@dish.Name</h5>
-                                <p class="card-text">@dish.Description</p>
-                                <div class="price h4 text-primary font-weight-bold">
-                                    $@dish.Price
-                                </div>
-                                <div class="mt-3">
-                                    <a href="Home/Details/@dish.Id" class="btn btn-secondary btn-block">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                }
-            }
-        </div>
+        }
     </div>
 </div>
-
