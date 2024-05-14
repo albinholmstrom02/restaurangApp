@@ -66,7 +66,6 @@ namespace frontendApp.Controllers
 
         public IActionResult OrderComplete(string orderNumber, string Name)
         {
-            // Pass the order number to the view
             ViewBag.OrderNumber = orderNumber;
             ViewBag.Name = Name;
 

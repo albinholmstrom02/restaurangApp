@@ -20,10 +20,8 @@ namespace frontendApp.Controllers
         [HttpPost]
         public IActionResult RemoveFromCart(int itemId)
         {
-            // Call the service to remove the item from the cart
             _cartService.RemoveFromCart(itemId);
 
-            // Redirect back to the cart page or any other appropriate page
             return RedirectToAction("Index","Cart");
         }
     }
